@@ -10,7 +10,7 @@
 	"DocsURL": "https://goo.gl/kjg3s0",
 	"MarketplaceURL": "https://www.unrealengine.com/marketplace/twitchplay-plugin",
 	"SupportURL": "https://twitter.com/TheDiG3",
-	"EngineVersion": "4.21.0",
+	"EngineVersion": "5.4.0",
 	"CanContainContent": false,
 	"Installed": true,
 	"Modules": [
@@ -18,9 +18,8 @@
 			"Name": "TwitchPlay",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
-			"WhitelistPlatforms": [
-				"Win64",
-				"Win32"
+			"PlatformAllowList": [
+				"Win64"
 			]
 		}
 	]

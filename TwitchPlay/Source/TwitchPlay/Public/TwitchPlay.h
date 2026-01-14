@@ -2,8 +2,8 @@
 
 #pragma once
 
+#include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
-#include "Engine.h"
 
 class FTwitchPlayModule : public IModuleInterface
 {
