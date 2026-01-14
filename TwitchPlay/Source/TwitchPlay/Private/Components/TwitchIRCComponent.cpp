@@ -3,6 +3,7 @@
 #define DEBUG_MSG(msg) GEngine->AddOnScreenDebugMessage( -1 , 6 , FColor::Red , msg )
 
 #include "Components/TwitchIRCComponent.h"
+#include "Engine/Engine.h"
 #include <string>
 
 // Sets default values for this component's properties
