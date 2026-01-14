@@ -3,9 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "CoreTypes.h"
 #include "Engine/World.h"
-#include "Runtime/Engine/Public/TimerManager.h"
+#include "TimerManager.h"
 #include "Components/ActorComponent.h"
 #include "Networking.h"
 #include "TwitchIRCComponent.generated.h"
